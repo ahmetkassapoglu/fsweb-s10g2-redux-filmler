@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+import { addMovie } from '../actions/movieActions';
 const AppHeader = (props) => {
   const appTitle = "";
   const displayFavorites = true;
